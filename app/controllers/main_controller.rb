@@ -7,10 +7,10 @@ class MainController < ApplicationController
   end
 
   def for_spell
-    @for_spell = params[:for_spell].first(100)
+    @for_spell = params[:for_spell].to_s.first(100)
   end
 
   def for_format
-    @for_format = params[:for_format].first(100)
+    @for_format = params[:for_format].to_s.first(100)
   end
 end
