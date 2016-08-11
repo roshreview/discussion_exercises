@@ -5,7 +5,6 @@
     <%= text_area_tag 'for_spell', @for_spell, placeholder: 'Put words here to check spelling' %>
   </p>
 
-    <%= @spell_results %>
   <p>
     <%= label_tag :for_format, 'Format'%>
     <%= text_area_tag 'for_format', @for_format, placeholder: 'Put words here to format' %>
@@ -16,5 +15,6 @@
 
 <h2>Results</h2>
 <h3>Spell Check</h3>
-<%=@spell_results%>
+<pre><%=@spell_results%></pre>
 <h3>Formatting</h3>
+<%=@format_results%>
