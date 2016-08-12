@@ -2,6 +2,6 @@
 
 Spell check and Formatting
 
-requires aspell
+using reverse instead of aspell so there are no dependencies in deployment
 
 

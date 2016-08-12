@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/silasb/aspell-heroku
-  revision: f1c9786b3db07645544bf95683e93fc51ba88b3a
-  specs:
-    aspell-heroku (0.0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -170,7 +164,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aspell-heroku!
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)

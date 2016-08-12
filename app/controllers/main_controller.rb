@@ -2,7 +2,7 @@ class MainController < ApplicationController
   def index
     @for_spell = for_spell.first(100)
     @for_format = for_format.first(100)
-    @spell_results = `echo #{@for_spell} | aspell -a` unless @for_spell == ""
+    @spell_results = `echo #{@for_spell} | rev` unless @for_spell == ""
     @format_results = self.for_format.gsub(/\s\([^)]*\)/, "") if self.for_format
   end
 
